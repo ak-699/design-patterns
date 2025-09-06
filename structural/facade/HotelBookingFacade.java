@@ -1,8 +1,8 @@
-package structural.decorator.facade;
+package structural.facade;
 
-import structural.decorator.facade.service.BillingService;
-import structural.decorator.facade.service.NotificationService;
-import structural.decorator.facade.service.RoomService;
+import structural.facade.service.BillingService;
+import structural.facade.service.NotificationService;
+import structural.facade.service.RoomService;
 
 public class HotelBookingFacade {
     private final RoomService roomService = new RoomService();

@@ -1,4 +1,4 @@
-package structural.decorator.facade;
+package structural.facade;
 
 public class FacaceDemo {
     public static void main(String[] args) {

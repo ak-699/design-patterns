@@ -1,4 +1,4 @@
-package structural.decorator.facade.service;
+package structural.facade.service;
 
 public class RoomService {
     public void assignRoom(String guestName, String roomNo) {

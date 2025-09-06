@@ -1,4 +1,4 @@
-package structural.decorator.facade.service;
+package structural.facade.service;
 
 public class BillingService {
     public void payDeposit(String guest, double amount) {

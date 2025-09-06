@@ -1,4 +1,4 @@
-package structural.decorator.facade.service;
+package structural.facade.service;
 
 public class NotificationService {
     public void sendBookingConfirmation(String guest, String room) {
