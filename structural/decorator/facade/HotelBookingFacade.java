@@ -5,9 +5,9 @@ import structural.decorator.facade.service.NotificationService;
 import structural.decorator.facade.service.RoomService;
 
 public class HotelBookingFacade {
-    RoomService roomService = new RoomService();
-    BillingService billingService = new BillingService();
-    NotificationService notificationService = new NotificationService();
+    private final RoomService roomService = new RoomService();
+    private final BillingService billingService = new BillingService();
+    private final NotificationService notificationService = new NotificationService();
 
     public void bookRoom(String guest, String room, double deposit) {
         roomService.assignRoom(guest, room);
