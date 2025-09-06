@@ -1,4 +1,4 @@
-package structural.decorator.coffee-shop;
+package structural.decorator.coffee_shop;
 
 public interface Coffee {
     String getName();
