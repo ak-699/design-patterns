@@ -1,7 +1,7 @@
 package structural.decorator.coffee_shop;
 
 public abstract class CoffeeDecorator implements Coffee {
-    private Coffee decoratedCoffee;
+    protected Coffee decoratedCoffee;
 
     public CoffeeDecorator(Coffee coffee) {
         this.decoratedCoffee = coffee;
