@@ -9,7 +9,7 @@ public class SimpleCoffee implements Coffee {
 
     @Override
     public String getDescription() {
-        return "Rich aroma with flavors";
+        return "Simple coffee";
     }
 
     @Override
