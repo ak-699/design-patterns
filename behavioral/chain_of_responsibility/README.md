@@ -1,6 +1,6 @@
 # Chain of Responsibility
 
-### Quick Steps
+# Quick Steps
 
 1. Handler
 2. Concrete handler
